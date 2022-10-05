@@ -1,0 +1,53 @@
+.text-hero-block h1 {
+  margin: 0;
+}
+.text-hero-block small {
+  margin-bottom: 0.5rem;
+}
+.text-hero-block p {
+  margin: 1rem 0 1.5rem 0;
+}
+@media (min-width: 768px) {
+  .text-hero-block > h1 {
+    max-width: 35.625rem;
+  }
+  .text-hero-block small {
+    margin-bottom: 1rem;
+  }
+  .text-hero-block p {
+    margin-top: 1.5rem;
+  }
+  .text-hero-block .btn ~ .btn {
+    margin-left: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .text-hero-block {
+    margin-left: calc(-1 * var(--dimenGutter));
+    margin-right: calc(-1 * var(--dimenGutter));
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .text-hero-block > h1 {
+    max-width: 53.25rem;
+  }
+  .text-hero-block > p {
+    max-width: 42.75rem;
+  }
+  .text-hero-block small {
+    margin-bottom: 1.5rem;
+  }
+  .text-hero-block p {
+    margin-bottom: 2rem;
+  }
+  .text-hero-block .btn ~ .btn {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .text-hero-block .btn ~ .btn {
+    margin-top: 0.75rem;
+  }
+}

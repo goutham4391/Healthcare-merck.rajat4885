@@ -1,0 +1,96 @@
+/* Mobile Styles */
+.mco-q4-dividend-history-list-block {
+  display: block;
+  padding-top: 1rem;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-past-sec-filings-search-controls-container {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 100%;
+  -ms-grid-columns: 100%;
+  grid-template-rows: auto auto;
+  -ms-grid-rows: auto auto;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-past-sec-filings-search-controls-container div:nth-child(1) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+  margin-bottom: 1rem;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-past-sec-filings-search-controls-container div:nth-child(2) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 2;
+  margin-bottom: 1rem;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-sec-filings-item-list-container {
+  width: 100%;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-sec-filings-item-list-container .mco-q4-dividend-history-list-block-list-item:first-of-type {
+  display: none;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-sec-filings-item-list-container .mco-q4-dividend-history-list-block-list-item:nth-child(odd) {
+  background: #f2f2f2;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-sec-filings-item-list-container .mco-q4-dividend-history-list-block-list-item {
+  padding: 1rem;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-sec-filings-item-list-container .mco-q4-dividend-history-list-block-list-item div.sec-mobile-label {
+  display: inline-block;
+  font-weight: 700;
+  width: 8rem;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-sec-filings-item-list-container .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-downloads .mco-q4-dividend-history-list-block-list-items-downloads-item {
+  display: inline;
+}
+.mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-sec-filings-item-list-container .mco-q4-dividend-history-list-block-list-item.hide {
+  display: none !important;
+}
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .mco-q4-dividend-history-list-block {
+    display: block;
+  }
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-sec-filings-item-list-container {
+    width: 100%;
+  }
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item:first-of-type {
+    display: block !important;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item:first-of-type strong {
+    display: block !important;
+  }
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item {
+    white-space: nowrap;
+    padding: 0.5rem;
+  }
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-ex-dividend,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-record,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-payable,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-amount,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-type {
+    display: inline-block;
+    margin: 0;
+    width: 20%;
+    white-space: normal;
+    vertical-align: top;
+  }
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-ex-dividend p,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-record p,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-payable p,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-amount p,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-type p {
+    margin: 0.25rem 0;
+  }
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-ex-dividend div.sec-mobile-label,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-record div.sec-mobile-label,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-payable div.sec-mobile-label,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-amount div.sec-mobile-label,
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item .mco-q4-dividend-history-list-block-list-item-type div.sec-mobile-label {
+    display: none;
+  }
+  .mco-q4-dividend-history-list-block .mco-q4-dividend-history-list-block-list-item:nth-child(odd) {
+    background: #f2f2f2;
+  }
+}
+/* Desktop Styles */

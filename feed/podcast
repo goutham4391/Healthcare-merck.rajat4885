@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://www.merck.com/wp-content/plugins/seriously-simple-podcasting/templates/feed-stylesheet.xsl"?><rss version="2.0"
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:atom="http://www.w3.org/2005/Atom"
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	 xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+	<channel>
+		<title>Merck.com</title>
+		<atom:link href="https://www.merck.com/feed/podcast" rel="self" type="application/rss+xml"/>
+		<link>https://www.merck.com/</link>
+		<description>Just another vip-msd.com site</description>
+		<lastBuildDate>Tue, 04 Oct 2022 16:22:12 +0000</lastBuildDate>
+		<language>en-US</language>
+		<copyright>&#xA9; 2022 Merck.com</copyright>
+		<itunes:subtitle>Just another vip-msd.com site</itunes:subtitle>
+		<itunes:author>Merck.com</itunes:author>
+				<itunes:summary>Just another vip-msd.com site</itunes:summary>
+		<itunes:owner>
+			<itunes:name>Merck.com</itunes:name>
+			<itunes:email>stephen.yoch@merck.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>clean</itunes:explicit>
+													<googleplay:author>Merck.com</googleplay:author>
+			<googleplay:email>stephen.yoch@merck.com</googleplay:email>
+			<googleplay:description>Just another vip-msd.com site</googleplay:description>
+			<googleplay:explicit>No</googleplay:explicit>
+					
+		<generator>https://wordpress.org/?v=5.9.4</generator>
+	</channel>
+</rss>

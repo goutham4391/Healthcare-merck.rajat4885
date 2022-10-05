@@ -1,0 +1,128 @@
+/* Mobile Styles */
+.mco-q4-sec-filings-list-block {
+  display: block;
+  padding-top: 1rem;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-past-sec-filings-search-controls-container {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 100%;
+  -ms-grid-columns: 100%;
+  grid-template-rows: auto auto;
+  -ms-grid-rows: auto auto;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-past-sec-filings-search-controls-container div:nth-child(1) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+  margin-bottom: 1rem;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-past-sec-filings-search-controls-container div:nth-child(2) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 2;
+  margin-bottom: 1rem;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-sec-filings-item-list-container {
+  width: 100%;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-sec-filings-item-list-container .mco-q4-sec-filings-list-block-list-item:first-of-type {
+  display: none;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-sec-filings-item-list-container .mco-q4-sec-filings-list-block-list-item:nth-child(odd) {
+  background: #f2f2f2;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-sec-filings-item-list-container .mco-q4-sec-filings-list-block-list-item {
+  padding: 1rem;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-sec-filings-item-list-container .mco-q4-sec-filings-list-block-list-item div.sec-mobile-label {
+  display: inline-block;
+  font-weight: 700;
+  width: 8rem;
+}
+.mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-sec-filings-item-list-container .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-downloads .mco-q4-sec-filings-list-block-list-items-downloads-item {
+  display: inline;
+  margin-right: 1rem;
+  width: 3rem;
+  white-space: normal;
+}
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .mco-q4-sec-filings-list-block {
+    display: block;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-sec-filings-item-list-container {
+    width: 100%;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item:first-of-type {
+    display: block !important;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item:first-of-type strong {
+    display: block !important;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item {
+    white-space: nowrap;
+    padding: 0.5rem;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-date,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-type,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-description,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-downloads {
+    display: inline-block;
+    margin: 0;
+    width: 25%;
+    white-space: normal;
+    vertical-align: top;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-date p,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-type p,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-description p,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-downloads p {
+    margin: 0.25rem 0;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-date div.sec-mobile-label,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-type div.sec-mobile-label,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-description div.sec-mobile-label,
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-downloads div.sec-mobile-label {
+    display: none;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-type {
+    width: calc(25% - 4rem);
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-description {
+    width: calc(25% + 4rem);
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-downloads {
+    white-space: nowrap;
+    padding-top: 0.5rem;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-downloads .mco-q4-sec-filings-list-block-list-items-downloads-item {
+    display: inline-block;
+    margin-right: 1rem;
+    width: 3rem;
+    white-space: normal;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item .mco-q4-sec-filings-list-block-list-item-downloads.heading {
+    padding-top: 0 !important;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-list-item:nth-child(odd) {
+    background: #f2f2f2;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-past-sec-filings-search-controls-container {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 12rem 18rem;
+    -ms-grid-columns: 12rem 18rem;
+    grid-template-rows: auto;
+    -ms-grid-rows: auto;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-past-sec-filings-search-controls-container div:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    margin-right: 1rem;
+  }
+  .mco-q4-sec-filings-list-block .mco-q4-sec-filings-list-block-past-sec-filings-search-controls-container div:nth-child(2) {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    margin-right: 1rem;
+  }
+}
+/* Desktop Styles */

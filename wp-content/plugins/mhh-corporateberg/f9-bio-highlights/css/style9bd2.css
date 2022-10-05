@@ -1,0 +1,180 @@
+/* Mobile Default */
+.mco-f9-bio-highlights-block {
+  display: block;
+  width: 100%;
+  background: #f7f7f7;
+  padding-top: 1.6875rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+.mco-f9-bio-highlights-block a svg {
+  margin-right: 0.25rem;
+}
+.mco-f9-bio-highlights-block .mco-f9-label {
+  font-weight: bold;
+}
+.mco-f9-bio-highlights-block p {
+  line-height: 1.25rem;
+  font-size: 0.8125rem;
+}
+.mco-f9-bio-highlights-block .mco-f9-bio-location {
+  margin-top: 0;
+}
+.mco-f9-bio-highlights-block .mco-f9-bio-education {
+  border-bottom: 1px solid #cfd2d7;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0;
+}
+.mco-f9-bio-highlights-block .mco-f9-bio-education p:first-of-type {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mco-f9-bio-highlights-block .mco-f9-bio-education p:nth-child(2) {
+  margin-top: 0;
+}
+.mco-f9-bio-highlights-block .mco-f9-bio-education p:last-of-type {
+  margin-bottom: 0;
+}
+.mco-f9-bio-highlights-block .mco-f9-bio-pdf {
+  margin-top: 0;
+  padding-top: 1.5rem;
+}
+.mco-f9-bio-highlights-block .mco-f9-bio-pdf a,
+.mco-f9-bio-highlights-block .mco-f9-bio-media a {
+  font-weight: bold;
+  color: #000;
+}
+.mco-f9-bio-highlights-block .mco-f9-bio-pdf a:hover,
+.mco-f9-bio-highlights-block .mco-f9-bio-media a:hover {
+  color: #000;
+}
+.mco-f9-bio-highlights-block .mco-f9-linked-in-container {
+  height: 2.5rem;
+  background: var(--colorPrimary);
+  font-weight: bold;
+  font-size: 0.9375rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+.mco-f9-bio-highlights-block .mco-f9-linked-in-container a {
+  color: #fff;
+}
+.mco-f9-bio-highlights-block .mco-f9-linked-in-container a:hover {
+  color: #fff;
+}
+.mco-f9-bio-highlights-block .mco-f9-linked-in-container a svg {
+  margin-right: 0.25rem;
+}
+@media (max-width: 767px) {
+  .mco-f9-bio-highlights-block {
+    width: 100vw !important;
+    margin-left: -1rem !important;
+    padding-bottom: 1.6875rem !important;
+  }
+}
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .mco-f9-bio-highlights-block {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 50% 50%;
+    -ms-grid-columns: 50% 50%;
+    grid-template-rows: auto;
+    -ms-grid-rows: auto;
+  }
+  .mco-f9-bio-highlights-block .mco-f9-bio-location {
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+  }
+  .mco-f9-bio-highlights-block .mco-f9-bio-education {
+    margin-top: 0;
+    border-bottom: none;
+    grid-column-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 3;
+    -ms-grid-column: 2;
+  }
+  .mco-f9-bio-highlights-block .mco-f9-bio-pdf {
+    border-top: 1px solid #cfd2d7;
+  }
+  .mco-f9-bio-highlights-block .mco-f9-bio-pdf,
+  .mco-f9-bio-highlights-block .mco-f9-bio-media,
+  .mco-f9-bio-highlights-block .mco-f9-linked-in-container {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+  }
+  .mco-f9-bio-highlights-block div:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+  }
+  .mco-f9-bio-highlights-block div:nth-child(2) {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+  }
+  .mco-f9-bio-highlights-block div:nth-child(3) {
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+  }
+  .mco-f9-bio-highlights-block div:nth-child(4) {
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+  }
+  .mco-f9-bio-highlights-block div:nth-child(5) {
+    -ms-grid-column: 1;
+    -ms-grid-row: 3;
+  }
+  .mco-f9-bio-highlights-block div:nth-child(6) {
+    -ms-grid-column: 2;
+    -ms-grid-row: 3;
+  }
+  .mco-f9-bio-highlights-block div:nth-child(7) {
+    -ms-grid-column: 1;
+    -ms-grid-row: 4;
+  }
+  .mco-f9-bio-highlights-block div:nth-child(8) {
+    -ms-grid-column: 2;
+    -ms-grid-row: 4;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .mco-f9-bio-highlights-block {
+    width: 41rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+/* Desktop Styles */
+@media (min-width: 1280px) {
+  .mco-f9-bio-highlights-block {
+    display: block;
+    width: 16.375rem;
+    height: auto !important;
+    position: absolute;
+    z-index: 13;
+    right: calc(-100vw / 2 + var(--dimenWrapper) / 2);
+    top: 55.5rem;
+    margin-top: -8rem;
+  }
+  .mco-f9-bio-highlights-block .mco-f9-bio-education {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1600px) {
+  .mco-f9-bio-highlights-block {
+    display: block;
+    width: 16.375rem;
+    height: auto !important;
+    position: absolute;
+    z-index: 13;
+    right: calc(-100rem / 2 + var(--dimenWrapper) / 2);
+    top: 55.5rem;
+  }
+}

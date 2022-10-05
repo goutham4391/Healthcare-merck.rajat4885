@@ -1,0 +1,42 @@
+.timeline-year-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mco-title-block-title {
+  font-size: 2.375em;
+  line-height: 1.37;
+}
+.timeline-year-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 1rem;
+}
+.timeline-year-list a {
+  margin: 0px 7px;
+}
+.mco-time-line-title h5 {
+  vertical-align: top;
+  display: inline;
+}
+#timeline-separator {
+  border-color: #fff;
+  margin-top: 40px;
+}
+#historyLeapYear {
+  display: none;
+}
+@media (max-width: 768px) {
+  #historyLeapYear {
+    display: block;
+  }
+  .timeline-year-container {
+    display: none;
+  }
+  hr {
+    border: 0;
+  }
+}
